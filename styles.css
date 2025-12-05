@@ -320,7 +320,6 @@ main {
   background-color: var(--transparentColour);
   color: var(--secondColour);
   width: 70%;
-  min-width: 200px;
   min-height: 470px;
   max-width: 300px;
   padding: 33px;
@@ -613,3 +612,4 @@ footer img:hover {
     min-height: 500px;
   }
 }
+
