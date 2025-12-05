@@ -296,7 +296,7 @@ main {
   background-image: url("https://images.unsplash.com/photo-1756758005190-92941d91b8b2?q=80&w=1170&auto=format&fit=crop");
   text-align: center;
   justify-content:center;
-  padding: 50px 20px;
+  padding: 40px 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -309,21 +309,18 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  gap: 10px;
-  padding: 40px;
+  gap: 30px;
+  padding: 10px;
 }
-.exp-box img {
-  max-height: 110px;
-  max-width: 200px
-}
+
 .exp1, .exp2, .exp3 {
   background-color: var(--transparentColour);
   color: var(--secondColour);
-  width: 70%;
+  width: 80%;
   min-height: 470px;
   max-width: 300px;
   padding: 33px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
@@ -594,12 +591,12 @@ footer img:hover {
   }
 
   #experience {
-    padding: 50px 100px;
+    padding: 50px 80px;
   }
 
   #experience h1 {
     text-align: left;
-    padding-left: 60px;
+    padding-left: 50px;
   }
 
 
@@ -609,7 +606,6 @@ footer img:hover {
 
   .exp1, .exp2, .exp3 {
     min-width: 120px;
-    min-height: 500px;
+    min-height: 425px;
   }
 }
-
